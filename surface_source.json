@@ -1,0 +1,1027 @@
+{
+  "app": {
+    "app_store_get_status": "200",
+    "app_store_id": "6781337213",
+    "kids": false,
+    "monetization": "free with optional one-time unlock",
+    "name": "CV Desk: ATS Resume Builder"
+  },
+  "authority_anchors": {
+    "index": [
+      "ATS-friendly",
+      "PDF",
+      "Word"
+    ],
+    "privacy": [
+      "developer server",
+      "one-time CV Desk Pro"
+    ]
+  },
+  "authority_sources": [
+    "00_Standards/localization.md",
+    "00_Standards/kids-compliance.md",
+    "00_Standards/app-requirements.md",
+    "authoritative-session/support_surface_contract.json",
+    "authoritative-session/crosspromo_config.json"
+  ],
+  "base_url": "https://alice51849.github.io/cvdesk-support/",
+  "content": {
+    "en-AU": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "en-CA": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "en-GB": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "en-US": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "or-IN": {
+      "index": {
+        "app_name": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।",
+        "eyebrow": "ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍",
+        "heading": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ]
+        ],
+        "title": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା — ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ। ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।",
+        "eyebrow": "ଗୋପନୀୟତା",
+        "heading": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା · ଗୋପନୀୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।",
+        "sections": [
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।"
+          ],
+          [
+            "ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ ଓ ଟ୍ରାକିଂ",
+            "କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ଗୋପନୀୟତା — CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ। ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।",
+        "eyebrow": "ସହାୟତା",
+        "heading": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା · ସହାୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ସମସ୍ୟା ସମାଧାନ",
+            "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ। କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ସହାୟତା — CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା"
+      }
+    }
+  },
+  "crosspromo_labels": {
+    "en-AU": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "en-CA": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "en-GB": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "en-US": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "or-IN": {
+      "guides": "ଅଧିକ ଆପ୍ ଗାଇଡ୍ ଏବଂ ବ୍ୟବହାର ପରାମର୍ଶ",
+      "heading": "ସେହି ଡେଭେଲପରଙ୍କ ଅଧିକ ଆପ୍",
+      "store_note": "ଲିଙ୍କଗୁଡ଼ିକ App Store ଖୋଲିବ।"
+    }
+  },
+  "crosspromo_source": "ar-SA/index.html",
+  "generated_surfaces": [
+    "en-AU/index.html",
+    "en-AU/privacy.html",
+    "en-AU/support.html",
+    "en-CA/index.html",
+    "en-CA/privacy.html",
+    "en-CA/support.html",
+    "en-GB/index.html",
+    "en-GB/privacy.html",
+    "en-GB/support.html",
+    "en-US/index.html",
+    "en-US/privacy.html",
+    "en-US/support.html",
+    "or-IN/index.html",
+    "or-IN/privacy.html",
+    "or-IN/support.html"
+  ],
+  "hourstag_paid": {},
+  "integration_base": "aa804f6017939565a624c06ec3b9c8566eb78d88",
+  "integration_date": "2026-08-29",
+  "locale_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "es-ES": "Español (España)",
+    "es-MX": "Español (México)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français (France)",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hr": "Hrvatski",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "ms": "Bahasa Melayu",
+    "nl-NL": "Nederlands",
+    "no": "Norsk",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+  },
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "palette": {
+    "accent": "#5b64d8",
+    "accent2": "#8c6bdc"
+  },
+  "parent_notice": {},
+  "preserved_hreflang_aliases": [
+    "en"
+  ],
+  "preserved_root_hreflang_locales": [
+    "en",
+    "en-AU",
+    "en-CA",
+    "en-GB"
+  ],
+  "preserved_root_hreflang_targets": {
+    "index": "https://alice51849.github.io/cvdesk-support/",
+    "privacy": "https://alice51849.github.io/cvdesk-support/privacy.html",
+    "support": "https://alice51849.github.io/cvdesk-support/support.html"
+  },
+  "preserved_sitemap_sha256": "d7a320cf995776e35a96dfca2f359719674aa29cb16994e29133f1368d18487a",
+  "preserved_surface_sha256": {
+    "ar-SA/index.html": "eedd070014438f5aacb57488b4b9fb77e42e0442da76a325fa9642dbeaf7c1f1",
+    "ar-SA/privacy.html": "a9f3be2fb5a7490ad2495dcc8de5b3a1c023eaea8a77c84ca7942603349c6af8",
+    "ar-SA/support.html": "d77a7ad952ec0c71d89b62e32c21210214dd7c37ec8754a712c4121a0e8d483a",
+    "bn-BD/index.html": "6b707edbebc3bf1be477c7bb3ae9d6c36684134652dbc793619e2546fa8d3f80",
+    "bn-BD/privacy.html": "12db2bdd6ab2c8e47252327174d86fdc65ee04b29de0d8246164ec8f35c62934",
+    "bn-BD/support.html": "6fd29cd01818a8964f365a64f4905a179351f53f5cf927ad291a78c91995c04b",
+    "ca/index.html": "e6b1c0b1b27d68d2ff89456b0415e4265d70996ecea663d27af1d7591fd02b7d",
+    "ca/privacy.html": "5731652b5fb7d1744a07b7cd0e864247411ff09d572fc25cb265024990d46cf2",
+    "ca/support.html": "5aa96a27e07674a6d09295a6e5d8853cc8c060f7a51ded713d8a3a6034b7058e",
+    "cs/index.html": "565133f1da7c541d453ce0dab00718727b00f80c91c790d975898076eee69ca1",
+    "cs/privacy.html": "f9e96ad539eb9f925e1c3d76fa65d23510d89bf4b4b2a0b58f1e20dd092130f0",
+    "cs/support.html": "26ff634beb10c8e37afbbf1ed682fb6d61f0af4fb1fe64720beb5af95a67bc9f",
+    "da/index.html": "2d2d78cb9fb4fb28e86fecf9652661fca8beafebb9c7c991b9a48e84d7f60540",
+    "da/privacy.html": "fdbf17eb429b91e6ef59d988f5cbf17b5be3c4cee6b6f56bf41585be16bf125d",
+    "da/support.html": "07cadb6ba9754267324c55beb6e75e88d4dfb226bdbca7884bd2ff35a998a1ba",
+    "de-DE/index.html": "88172c17c4aba364068a0e5ae699689e754f04387c5386b197e6196047f4478c",
+    "de-DE/privacy.html": "d652360d3937d881f9f959b88be0fa29369c261fa3a3f03bb374af103bb6a888",
+    "de-DE/support.html": "1496187685d870bcbaf8a9355da050fd603904eb4b54b9847a44541cc23a8d28",
+    "el/index.html": "fcd3783eee373c263bc82d601ebd0b3df40bdba10704f2fed9868462870762e5",
+    "el/privacy.html": "df0f0f73152d482c57c727c881ebdedf9a6e7d06227e2aaf132729cd14f54a5b",
+    "el/support.html": "b4dd924d959deea47ba64a33508953917356a594cf76473531e816e25cdb113c",
+    "es-ES/index.html": "86399b9bb0e52009d59134761fd5608f97037e55ba048e44659fe15b5c0b9dd1",
+    "es-ES/privacy.html": "8b579833038e660cae46ae818017d31b44a3373e2ac6479db09847fdd4bc0b7c",
+    "es-ES/support.html": "853e15f56a70fe66f9929c4451c8ba208b6d8024d5f23b90864050727fa61ed7",
+    "es-MX/index.html": "69aa7bb3db6600977940ae5fd8b9e8cdde60feaa0d4e41b016c110e7ac870afd",
+    "es-MX/privacy.html": "fe677e46e9bbba4cfe32d4cf1bcb4ee56f2b500373f83cc8b0147370821fd52d",
+    "es-MX/support.html": "fda9e51fdefc7a2b8920c8be6aab73cb249af993ce218e5325063a59ca11c787",
+    "fi/index.html": "b7e19df71ed8cee49247470771115b09a0276c9412a317e46bda0b1fdae84543",
+    "fi/privacy.html": "7a1abef65177bfc5820146db11e62079bb19ad30a1ce32287e1fc721d3a8a0de",
+    "fi/support.html": "a48e7210c16598377888537ef873eaaa42322db413418456aa595714533f268e",
+    "fr-CA/index.html": "fc38d214ef245f5b679c57db47ff627056d6c20ea30f5fed74209fd6cf0c0137",
+    "fr-CA/privacy.html": "60f60716e6060a1bd7e24544656a2231d42c30c501b19426ce584bd2db4f0a78",
+    "fr-CA/support.html": "16fed4ce345a244c8dcf134c89a2b2a47c19da307c76ec33b669a8e37b629d4e",
+    "fr-FR/index.html": "4b59d6f40c6b084cc922ba657694daacd4c63d7cac7a6f08d92a1cc93d1897c6",
+    "fr-FR/privacy.html": "aadade40fe6303084fa491ee0d4bf53b96a4087b84a69afcec0e0de3a85b7e3e",
+    "fr-FR/support.html": "63bc421691627c098e2667fccb4139bfb1e968d2627f8239aa1d5e9fb545d5d7",
+    "gu-IN/index.html": "d47f597d4c0fae527e41fa720ef81696347d13e775b3fabbee956976b2a4b5fa",
+    "gu-IN/privacy.html": "877a301b27ef0474d25e409e047262c2a6654dcf12229bc18e3e41f9ac050482",
+    "gu-IN/support.html": "13b1b5968c86e2eba8d4096030492bb8e1420d747db11426a7a7f59bed0da9cc",
+    "he/index.html": "39af526fef15ac098ed11b554c4acf16e44e50cdcce5724f01783d7d838570e3",
+    "he/privacy.html": "e15251c3f10499b0845e07ecb6710ff5c021aa3055a878ddb09561fa4d01f433",
+    "he/support.html": "531aa05b665d4453716bfcb17fa7e4430d4d9e2c828b8e86e696df89b0cdb885",
+    "hi/index.html": "08fe56f5551dcbb6b07da0e4a6319a77e63e89ef3406f2bf9a5f344d6e51d6c6",
+    "hi/privacy.html": "6103b006bd8adf1d0e663083078d6786c8b198022a22316278db1c3bd12d0617",
+    "hi/support.html": "f08f26d5fcee07ab9f18ce03f6652dd659f1fb432f2fdc1f3c409f8777040cf5",
+    "hr/index.html": "29346e91285dc213d9d9e92ddb70b6f58a90ff90be2561fc4a1987b022553d65",
+    "hr/privacy.html": "8874b47ed33e88e879d4cf391911500c291d4a9a40fb6dd7644b4cfe121a0cc0",
+    "hr/support.html": "4fc725f9498a3717af68d242ce8718ebd921c0da594c26e3dc3dbf44a5675956",
+    "hu/index.html": "cbbcd2095192469592051650dd1e10636c29cd441c1538f1f28de680e1723278",
+    "hu/privacy.html": "a362f3a82e9ea9c0fa2ba056b45502ad641485c48790e905e99aff03c8a83e91",
+    "hu/support.html": "acbed4b00994d1e09431103b79b81c2811ec23bb3025739bc65cfd08839f40f2",
+    "id/index.html": "3505f3998c1ccf23d608a56515842f9324c3326b307a729c94b4f85436072ea3",
+    "id/privacy.html": "33bdcd3432c0ee40c5dd2ea0c1d4c642682c2cb514971836fd13895710f73ab3",
+    "id/support.html": "1f4f29f542e86311a8b13eccf96b404222ec7bfcb6b74a95177f0457c579f46c",
+    "it/index.html": "73465ac11aece8f96b63d9ab6fd301fedc974e8dd557dfcda3f3aaad09447d54",
+    "it/privacy.html": "05a7d9a0f5ffb52cc5161f1a07d7e37c60d55704c4627f6d60e01a919ee888ac",
+    "it/support.html": "633e1449831850900be0bce18807c3c42adef4bd8e508ac537d96ae0552d5499",
+    "ja/index.html": "4d1566e7114f3ca43ef5562258c25d9dba9166665da1b9d2e0adbf48d8c9bdce",
+    "ja/privacy.html": "e495c3495a870c58c65d689514579383f33baf1b65ca1ab0864a1c7652766010",
+    "ja/support.html": "27fd7628ab6f327585d3f8dd34dbe031ef25104f1b3cdb825add5062aaa5d4b8",
+    "kn-IN/index.html": "bfe24facf5686dd105e5fcfc3a395aec0a3d7f1a82c1569050681828ac19994d",
+    "kn-IN/privacy.html": "ac194c3ea1110ac6864e2edc20b56eb5c7dcfb0dd395faf0e021cba8a2415cae",
+    "kn-IN/support.html": "29a92fc1f3d80e7031e64cb73a226d262c7dd793898213183364821c276446eb",
+    "ko/index.html": "0c7ceb9b38dc6cec399a5ecc028550b7b2cc9fb028e86614d2c3a07b52efea25",
+    "ko/privacy.html": "077b3434cffd722aceb14920423d0d4df63e6eacc469a31c92a6c2ad5b04d68a",
+    "ko/support.html": "408342591993ec7d4e3bc9d4b624f2c192f071ad9c4a717a9f2922621eda13b6",
+    "ml-IN/index.html": "7c790038b87f1aac8454c86cbaebbf16f370e13ff0c487437c0eb11ad1011b44",
+    "ml-IN/privacy.html": "76c79a641ffb3ebbf2433eff10eec9cf78b6c92415906f8d4a067447b6289d59",
+    "ml-IN/support.html": "483f887ad29d0ad81c89ff493869b43bc1b8d3bef643a8ef97620ef115018759",
+    "mr-IN/index.html": "95a77f8721c6d7ad4a93aa52c6ff47eb41308d882ecd78205eea5674cb6ede59",
+    "mr-IN/privacy.html": "9c5086eb5bdee6fe02516f4e846522fcc218f9d8745e62885008fc36f45bb6a5",
+    "mr-IN/support.html": "f977a6f447939da5a32c48266c7ae87bb7bb358fda1515f56dff41beae9e0b4e",
+    "ms/index.html": "c4fc3bae7298e6c02fc23e28a4f9727f692503c2192c64861b48bbea2bee1eb7",
+    "ms/privacy.html": "a16f595c4da34dd116f4a502d7f6a84914675776931943385f2e821e8e5f2807",
+    "ms/support.html": "4bd6ec12d1a669bd2c44d531d07a6e5e636b3e17a85e17d34e62a3a6dbfc72f0",
+    "nl-NL/index.html": "b41f87d0be15e2899ab521f09b472762d5f0ac24e58b179abb32d3bcaeba69db",
+    "nl-NL/privacy.html": "386c53dd7ad123e22f935aa7011606e370d4e2549ca75e22e724ee7e058974e8",
+    "nl-NL/support.html": "81ca6fa926b08ae293e5a43f7ab2360aa06c41745bdc3521f95d566198d31f43",
+    "no/index.html": "029d07f59567e49b311f2b1f88b019387878d439a826deb2f664220a2f9606e8",
+    "no/privacy.html": "b76b146741bf1383dbd4ce59fe791a993d6c54849b516f6161094fe9e088269d",
+    "no/support.html": "33a4a42b01c4350400f85aa04a7fab6994f3d64b5bb7f7af6bec38ffed3605ae",
+    "pa-IN/index.html": "5b9aa6804296aea83fcdd12ae695b4af843a23c6b190852f4eda1dea3e2207ec",
+    "pa-IN/privacy.html": "66ada2f0c772b689670285d51c1a2510ffca4dfaacf3229c2822cba93715d965",
+    "pa-IN/support.html": "2e6b5b909b460f4c2de848fcd8e4d889a3892fb336da479c81d9e793f595dc34",
+    "pl/index.html": "65189abd3849832ef7174c8e338261c582691f193753e83372790fb9b9083a3e",
+    "pl/privacy.html": "d43a0fae8faad859163d0396999f8af456c787632de99ee871ca25b10e35257c",
+    "pl/support.html": "dd93b2e9a190a1a4ef033b2eb17ec88d57094f823cdba24e60bdd5b10566249a",
+    "pt-BR/index.html": "3bc88495e00e2c850459781f7d294c524b85a55fc2ac5ca1e8142e79e226a316",
+    "pt-BR/privacy.html": "d4c6cc7f0308e0efd11220a876d11d019ebf206c7380241082891253ab3739a3",
+    "pt-BR/support.html": "743f2856fcb4ed97c3e17ccc6f05c9de14fb8b6a9916b68eae3ca6ec0c0f17c9",
+    "pt-PT/index.html": "659023c0af67897c499ea9a684761080be5aacf6db4109d7c448a2afebbe5fb4",
+    "pt-PT/privacy.html": "24e836e73e731dc9ac3fa07ccf735ae71fe9bd6e52cf81de8661c56128688c01",
+    "pt-PT/support.html": "c7cdba3e3b47b829b74c86daf42cec929b6241d7ede14c5fccd9637eee113e00",
+    "ro/index.html": "d112b63d48ae7e57000da20958039de889f80556df54ef2f15525777bf4b0ddf",
+    "ro/privacy.html": "c1ab2310956d9de74fd0650f120f1c35a38b7a1b8f3de4d0f45da317de641dc8",
+    "ro/support.html": "e4d46666e684e93b42080b32e88f24e995a5cb0e845f025d59b15c95eade1cc6",
+    "ru/index.html": "0aa99f043c2df09c58c9cac9dcd8f334790cdc455929ca38d1bb5e46d8a397c3",
+    "ru/privacy.html": "90e27b3dc9be25307d7c89b300df156f401135ab3e7357de3e03589df9f94647",
+    "ru/support.html": "3476ee5bd3eb1fd2f94d405183b027151d9f69347559395dc4c4a35fcf9e8a2a",
+    "sk/index.html": "054ea2f52087eed09b8155126bd371b1a0943cf5af49285437d6ddde68e284da",
+    "sk/privacy.html": "c1d0342af5e7ed7ff4416944a68ca80f33c24efa76e5029fce99f9e268725d57",
+    "sk/support.html": "0cd16973c8e246d71e16360554caa698ceabac7aa462bac4faa8abed112f791a",
+    "sl-SI/index.html": "be3a3e05178f74fd7d7e7b7ddc1c217e64c328b012fd05df78e6b503dbebf19e",
+    "sl-SI/privacy.html": "82be4c383da2f48bb9920874ca5c200c3ec947a65c8b8437276bb7bcef2dc2af",
+    "sl-SI/support.html": "56119803c3407a903b675c49081ce51f79f482f55b4b3158b53574f26e14d1b6",
+    "sv/index.html": "3c7e5153ce178372bea290109e14d113527ec289e62210a29c5f9eee6b2c67f4",
+    "sv/privacy.html": "e0bec3d8b7ed7074c65cf089c184b9e450c1e70c94f3002c0ba4bd2fc8206bd1",
+    "sv/support.html": "41b4497942c9afc17537261271dab76668e389ee2b7a722a6830c74f201089e3",
+    "ta-IN/index.html": "d6d28b72fc221fa7333b38e664a12fd68e927840acce5858b29fc4e59c89cd62",
+    "ta-IN/privacy.html": "93ffe52d6b7db81a91ef4824aa1648bed34348afe0de302ee14ae6887319c983",
+    "ta-IN/support.html": "7fb25134a679645f0afc160f57cd06df3121d42d9c025cc0b0a0c426f64a3ee8",
+    "te-IN/index.html": "f8a274e14b2429f66b964695ac6a42cfe69a342d9c990861cfdb61551fae326e",
+    "te-IN/privacy.html": "f1640791d409b8a22805140ce905034c4de3e044b437ee9b61ac000c915661d0",
+    "te-IN/support.html": "d6f31ab64d491fa980498e0526a1177dad3613aad5ebbdf3dfc4d19703785ca0",
+    "th/index.html": "bcc2ab55fa245145afb29ba7bb5eda5d0dd091e44b82b1b40d53aa0232687bd4",
+    "th/privacy.html": "8ec04adf31e6432c58c70707740364e804a310fa93882e131614c372021cdcb9",
+    "th/support.html": "bb1e3e8b84dc8565baa67b138fe48735a6e00058ce420a5f454cca2dfedcb574",
+    "tr/index.html": "d456e9a4d5722a98a0bb714a1f24ab58ab10d1b30c5544d9b77f1e04fa28e337",
+    "tr/privacy.html": "efdce1bb603a1c2dd1f2dd043d689072c66b5e9f4ca2ca4a88c7247b348da221",
+    "tr/support.html": "ec0d30e10b0c2fbda52620f1cf36040776a2eedabdb1ac627a08f4ee3f16f8a8",
+    "uk/index.html": "e7fc52cac21fc77df95ef1d9da5665dab6421a2c87fd5150fef0c5e28002d0f2",
+    "uk/privacy.html": "370349c9bd67553f8bc1fa0e3f074fe0d497e4fa695038231733fb73907e5c03",
+    "uk/support.html": "812006c4ab3293b1876f8853b59c02f17511dcb4a09f79e101bb8379cac59b48",
+    "ur-PK/index.html": "c640889b621ede58977d99be7b6f578a9dfb7864942e43b14eabcc16ce59b8d8",
+    "ur-PK/privacy.html": "beb3801f3c39f1df179f7a359c7b83bb924480efa7c231f5bffb57cfdbb40c87",
+    "ur-PK/support.html": "3d47578a56c73c751eb1b8f8ce3ff097909ba8f12d4e7b45f5ae265c6dd69874",
+    "vi/index.html": "2799dd138a4456ef34c07854a3d3227d85a69f0103c6a80bba9d7af894020953",
+    "vi/privacy.html": "073d7cc62f1905b484fed5d7193fa7836c88ba7ea686c588bc3ffbb155efc8fe",
+    "vi/support.html": "b146187667c69142802a1a882459998c057a8181a4d7b987f09cf13bfb3580ba",
+    "zh-Hans/index.html": "247c67f35aacbb5e879c7c8dd8d5c703eaf55ea37cdbcf8b801c681842b0dd89",
+    "zh-Hans/privacy.html": "c06ba1c7887277db8a351bd1390bf4415cbc2add2c13ddc14d21145eaed0e27f",
+    "zh-Hans/support.html": "d1eb255fb51390c2d330f30458b4bccdec82c3d8044987d66060b411b78847f8",
+    "zh-Hant/index.html": "6ff998d268d0671fb0502c01a9cac87e348a0aca8b93d7a9ffb8ba4dc897ef97",
+    "zh-Hant/privacy.html": "b10ff697f9b221e80cf28f678e966a544f743e736c590583467058dc6323b716",
+    "zh-Hant/support.html": "1f534eb5bec2a52e646773aded08de553255b0ba78b81b8443a2f0e1d673f027"
+  },
+  "preserved_surfaces": [
+    "ar-SA/index.html",
+    "ar-SA/privacy.html",
+    "ar-SA/support.html",
+    "bn-BD/index.html",
+    "bn-BD/privacy.html",
+    "bn-BD/support.html",
+    "ca/index.html",
+    "ca/privacy.html",
+    "ca/support.html",
+    "cs/index.html",
+    "cs/privacy.html",
+    "cs/support.html",
+    "da/index.html",
+    "da/privacy.html",
+    "da/support.html",
+    "de-DE/index.html",
+    "de-DE/privacy.html",
+    "de-DE/support.html",
+    "el/index.html",
+    "el/privacy.html",
+    "el/support.html",
+    "es-ES/index.html",
+    "es-ES/privacy.html",
+    "es-ES/support.html",
+    "es-MX/index.html",
+    "es-MX/privacy.html",
+    "es-MX/support.html",
+    "fi/index.html",
+    "fi/privacy.html",
+    "fi/support.html",
+    "fr-CA/index.html",
+    "fr-CA/privacy.html",
+    "fr-CA/support.html",
+    "fr-FR/index.html",
+    "fr-FR/privacy.html",
+    "fr-FR/support.html",
+    "gu-IN/index.html",
+    "gu-IN/privacy.html",
+    "gu-IN/support.html",
+    "he/index.html",
+    "he/privacy.html",
+    "he/support.html",
+    "hi/index.html",
+    "hi/privacy.html",
+    "hi/support.html",
+    "hr/index.html",
+    "hr/privacy.html",
+    "hr/support.html",
+    "hu/index.html",
+    "hu/privacy.html",
+    "hu/support.html",
+    "id/index.html",
+    "id/privacy.html",
+    "id/support.html",
+    "it/index.html",
+    "it/privacy.html",
+    "it/support.html",
+    "ja/index.html",
+    "ja/privacy.html",
+    "ja/support.html",
+    "kn-IN/index.html",
+    "kn-IN/privacy.html",
+    "kn-IN/support.html",
+    "ko/index.html",
+    "ko/privacy.html",
+    "ko/support.html",
+    "ml-IN/index.html",
+    "ml-IN/privacy.html",
+    "ml-IN/support.html",
+    "mr-IN/index.html",
+    "mr-IN/privacy.html",
+    "mr-IN/support.html",
+    "ms/index.html",
+    "ms/privacy.html",
+    "ms/support.html",
+    "nl-NL/index.html",
+    "nl-NL/privacy.html",
+    "nl-NL/support.html",
+    "no/index.html",
+    "no/privacy.html",
+    "no/support.html",
+    "pa-IN/index.html",
+    "pa-IN/privacy.html",
+    "pa-IN/support.html",
+    "pl/index.html",
+    "pl/privacy.html",
+    "pl/support.html",
+    "pt-BR/index.html",
+    "pt-BR/privacy.html",
+    "pt-BR/support.html",
+    "pt-PT/index.html",
+    "pt-PT/privacy.html",
+    "pt-PT/support.html",
+    "ro/index.html",
+    "ro/privacy.html",
+    "ro/support.html",
+    "ru/index.html",
+    "ru/privacy.html",
+    "ru/support.html",
+    "sk/index.html",
+    "sk/privacy.html",
+    "sk/support.html",
+    "sl-SI/index.html",
+    "sl-SI/privacy.html",
+    "sl-SI/support.html",
+    "sv/index.html",
+    "sv/privacy.html",
+    "sv/support.html",
+    "ta-IN/index.html",
+    "ta-IN/privacy.html",
+    "ta-IN/support.html",
+    "te-IN/index.html",
+    "te-IN/privacy.html",
+    "te-IN/support.html",
+    "th/index.html",
+    "th/privacy.html",
+    "th/support.html",
+    "tr/index.html",
+    "tr/privacy.html",
+    "tr/support.html",
+    "uk/index.html",
+    "uk/privacy.html",
+    "uk/support.html",
+    "ur-PK/index.html",
+    "ur-PK/privacy.html",
+    "ur-PK/support.html",
+    "vi/index.html",
+    "vi/privacy.html",
+    "vi/support.html",
+    "zh-Hans/index.html",
+    "zh-Hans/privacy.html",
+    "zh-Hans/support.html",
+    "zh-Hant/index.html",
+    "zh-Hant/privacy.html",
+    "zh-Hant/support.html"
+  ],
+  "rtl_locales": [
+    "ar-SA",
+    "he",
+    "ur-PK"
+  ],
+  "schema": "support-required-surfaces/v1",
+  "site_key": "cvdesk-support",
+  "verified_app_store_urls": [
+    "https://apps.apple.com/app/id6781337213",
+    "https://apps.apple.com/app/id6781337213)**",
+    "https://apps.apple.com/app/id6784974530?pt=118326163&ct=sup_cvdesk&mt=8",
+    "https://apps.apple.com/app/id6791658210?pt=118326163&ct=sup_cvdesk&mt=8",
+    "https://apps.apple.com/app/id6797601720?pt=118326163&ct=sup_cvdesk&mt=8",
+    "https://apps.apple.com/app/id6798814385?pt=118326163&ct=sup_cvdesk&mt=8",
+    "https://apps.apple.com/app/id{app_id"
+  ]
+}
