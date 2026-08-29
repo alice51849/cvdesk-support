@@ -1,0 +1,682 @@
+{
+  "app": {
+    "app_store_get_status": "200",
+    "app_store_id": "6781337213",
+    "kids": false,
+    "monetization": "free with optional one-time unlock",
+    "name": "CV Desk: ATS Resume Builder"
+  },
+  "authority_anchors": {
+    "index": [
+      "ATS-friendly",
+      "PDF",
+      "Word"
+    ],
+    "privacy": [
+      "developer server",
+      "one-time CV Desk Pro"
+    ]
+  },
+  "authority_sources": [
+    "00_Standards/localization.md",
+    "00_Standards/kids-compliance.md",
+    "00_Standards/app-requirements.md",
+    "authoritative-session/support_surface_contract.json",
+    "authoritative-session/crosspromo_config.json"
+  ],
+  "base_url": "https://alice51849.github.io/cvdesk-support/",
+  "content": {
+    "en-AU": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "en-CA": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "en-GB": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "en-US": {
+      "index": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "eyebrow": "Official support site",
+        "heading": "CV Desk: ATS Resume Builder",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ]
+        ],
+        "title": "CV Desk: ATS Resume Builder — Official support site"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "CV Desk: ATS Resume Builder · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — CV Desk: ATS Resume Builder"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS Resume Builder",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server.",
+        "eyebrow": "Support",
+        "heading": "CV Desk: ATS Resume Builder · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Build, edit and preview ATS-friendly resumes, then save them as PDF or editable Word files on your device."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Resume content, contact details, an optional header photo, ATS scoring and file creation stay on your device. Nothing is uploaded to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Building and previewing are free. A one-time CV Desk Pro purchase removes the export watermark and unlocks premium features; Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — CV Desk: ATS Resume Builder"
+      }
+    },
+    "or-IN": {
+      "index": {
+        "app_name": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।",
+        "eyebrow": "ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍",
+        "heading": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ]
+        ],
+        "title": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା — ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍"
+      },
+      "privacy": {
+        "app_name": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ। ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।",
+        "eyebrow": "ଗୋପନୀୟତା",
+        "heading": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା · ଗୋପନୀୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।",
+        "sections": [
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।"
+          ],
+          [
+            "ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ ଓ ଟ୍ରାକିଂ",
+            "କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ଗୋପନୀୟତା — CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା"
+      },
+      "support": {
+        "app_name": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ। ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ।",
+        "eyebrow": "ସହାୟତା",
+        "heading": "CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା · ସହାୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ATS-ଉପଯୋଗୀ ରେଜୁମେ ତିଆରି, ସମ୍ପାଦନା ଓ ପୂର୍ବଦର୍ଶନ କରନ୍ତୁ, ପରେ ଡିଭାଇସରେ PDF କିମ୍ବା ସମ୍ପାଦନାଯୋଗ୍ୟ Word ଫାଇଲ୍ ଭାବେ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ସମସ୍ୟା ସମାଧାନ",
+            "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ରେଜୁମେ, ଯୋଗାଯୋଗ ତଥ୍ୟ, ଇଚ୍ଛାଧୀନ ଫଟୋ, ATS ସ୍କୋର ଓ ଫାଇଲ୍ ତିଆରି ଡିଭାଇସରେ ହୁଏ। ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ କିଛି upload ହୁଏ ନାହିଁ। କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "ରେଜୁମେ ତିଆରି ଓ ପୂର୍ବଦର୍ଶନ ମାଗଣା। ଏକମାତ୍ର CV Desk Pro କ୍ରୟ watermark ହଟାଇ premium ବୈଶିଷ୍ଟ୍ୟ ଖୋଲେ; କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ସହାୟତା — CV Desk: ATS ରେଜୁମେ ନିର୍ମାତା"
+      }
+    }
+  },
+  "hourstag_paid": {},
+  "locale_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "es-ES": "Español (España)",
+    "es-MX": "Español (México)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français (France)",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hr": "Hrvatski",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "ms": "Bahasa Melayu",
+    "nl-NL": "Nederlands",
+    "no": "Norsk",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+  },
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "palette": {
+    "accent": "#5b64d8",
+    "accent2": "#8c6bdc"
+  },
+  "parent_notice": {},
+  "rtl_locales": [
+    "ar-SA",
+    "he",
+    "ur-PK"
+  ],
+  "schema": "support-required-surfaces/v1",
+  "site_key": "cvdesk-support"
+}
