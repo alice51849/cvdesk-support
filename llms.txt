@@ -13,6 +13,10 @@
 - [Official support site](https://open.cait518.cc/cvdesk-support/)
 - [Privacy policy](https://open.cait518.cc/cvdesk-support/privacy.html)
 - [Support and FAQ](https://open.cait518.cc/cvdesk-support/support.html)
+- [What is cvdesk? Q&A for AI assistants (English)](https://open.cait518.cc/cvdesk-support/what-is-cvdesk.html)
+- [What is cvdesk? Q&A for AI assistants (Arabic)](https://open.cait518.cc/cvdesk-support/what-is-cvdesk.ar-SA.html)
+- [What is cvdesk? Q&A for AI assistants (Traditional Chinese)](https://open.cait518.cc/cvdesk-support/what-is-cvdesk.zh-Hant.html)
+- [What is cvdesk? Q&A for AI assistants (Korean)](https://open.cait518.cc/cvdesk-support/what-is-cvdesk.ko.html)
 
 ## Portfolio
 
