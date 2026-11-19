@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATS CV checker: compare your CV with a job advert, in your browser</title>
+<meta name="description" content="Free ATS CV checker for UK job seekers. Paste a job advert and your CV to see missing keywords, the job title, section headings and a match rate. Runs in your browser; nothing is uploaded.">
+<link rel="canonical" href="https://open.cait518.cc/cvdesk-support/ats-cv-checker.en-GB.html">
+<meta property="og:title" content="ATS CV checker: compare your CV with a job advert, in your browser">
+<meta property="og:description" content="Free ATS CV checker for UK job seekers. Paste a job advert and your CV to see missing keywords, the job title, section headings and a match rate. Runs in your browser; nothing is uploaded.">
+<meta property="og:url" content="https://open.cait518.cc/cvdesk-support/ats-cv-checker.en-GB.html">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="style.css">
+<style>
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 20px 64px;line-height:1.75}
+.helpdoc h1{font-size:clamp(26px,4.4vw,38px);line-height:1.25;margin:.2em 0 .35em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.2em 0 .6em;scroll-margin-top:20px}
+.helpdoc h3{font-size:16.5px;margin:1.6em 0 .35em}
+.helpdoc .lede{font-size:17.5px;opacity:.85;margin:0 0 1.6em}
+.helpdoc ul{padding-left:1.15em}
+.helpdoc li{margin:.35em 0}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 22px;opacity:.8}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:6px 12px;border:1px solid currentColor;border-radius:999px;font-size:13.5px;opacity:.75;text-decoration:none}
+.helpdoc .hd-specs{width:100%;border-collapse:collapse;margin:.6em 0;font-size:15px}
+.helpdoc .hd-specs th{text-align:left;font-weight:600;padding:9px 12px 9px 0;white-space:nowrap;vertical-align:top;opacity:.7}
+.helpdoc .hd-specs td{padding:9px 0;border-bottom:1px solid rgba(128,128,128,.18)}
+.helpdoc .hd-q{margin:1.5em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-cta{display:inline-block;margin:10px 8px 10px 0;padding:11px 20px;border-radius:999px;border:1px solid currentColor;font-weight:600;text-decoration:none}
+.helpdoc .hd-note{font-size:13px;opacity:.62;margin-top:2.6em;border-top:1px solid rgba(128,128,128,.2);padding-top:14px}
+@media (max-width:520px){.helpdoc .hd-specs th{display:block;padding-bottom:0}.helpdoc .hd-specs td{display:block;padding-top:2px}}
+.ac-tool{margin:1.4em 0 1em;padding:18px;border:1px solid rgba(128,128,128,.28);border-radius:18px;background:rgba(127,127,127,.05)}
+.ac-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ac-field label,.ac-row label{display:block;font-weight:600;margin:0 0 6px}
+.ac-tool textarea,.ac-tool input{width:100%;box-sizing:border-box;font:inherit;font-size:16px;line-height:1.5;padding:10px 12px;border:1px solid rgba(128,128,128,.45);border-radius:12px;background:transparent;color:inherit}
+.ac-tool textarea{min-height:200px;resize:vertical}
+.ac-row{margin-top:12px}
+.ac-btns{display:flex;flex-wrap:wrap;gap:8px}
+.ac-btns button{font:inherit;font-size:14.5px;padding:8px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer}
+#ac-out{margin-top:18px;border-top:1px solid rgba(128,128,128,.22);padding-top:14px}
+#ac-out h3{margin:1.3em 0 .4em}
+.ac-small{font-size:14px;opacity:.75}
+.ac-big{font-size:40px;font-weight:700;line-height:1;margin-right:8px}
+.ac-bar{height:10px;border-radius:99px;background:rgba(128,128,128,.2);margin-top:10px;overflow:hidden}
+.ac-bar span{display:block;height:100%;width:0;background:#2f7d5b;transition:width .25s}
+.ac-chips{list-style:none;padding:0!important;display:flex;flex-wrap:wrap;gap:6px}
+.ac-chips li{margin:0!important;padding:4px 11px;border-radius:999px;border:1px solid #c0533e;font-size:14.5px}
+.ac-chips.ac-ok li{border-color:#2f7d5b}
+.ac-chips li.ac-half{border-style:dashed}
+.ac-chips li.ac-none{border:0;opacity:.7;padding-left:0}
+.ac-chips small{opacity:.6}
+.ac-list{list-style:none;padding:0!important}
+.ac-list li{padding-left:1.4em;position:relative}
+.ac-list li.ac-y:before{content:"\2713";position:absolute;left:0;color:#2f7d5b;font-weight:700}
+.ac-list li.ac-n:before{content:"!";position:absolute;left:.25em;color:#c0533e;font-weight:700}
+.ac-src a{word-break:break-word}
+@media (max-width:700px){.ac-grid{grid-template-columns:1fr}.ac-tool{padding:14px}.ac-tool textarea{min-height:160px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "ATS CV checker", "url": "https://open.cait518.cc/cvdesk-support/ats-cv-checker.en-GB.html", "inLanguage": "en-GB", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in the browser)", "isAccessibleForFree": true, "description": "Free ATS CV checker for UK job seekers. Paste a job advert and your CV to see missing keywords, the job title, section headings and a match rate. Runs in your browser; nothing is uploaded.", "author": {"@type": "Organization", "name": "Lumi Studio"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "CV Desk", "operatingSystem": "iOS", "applicationCategory": "Productivity", "url": "https://apps.apple.com/app/id6781337213", "installUrl": "https://apps.apple.com/app/id6781337213", "softwareHelp": {"@type": "CreativeWork", "url": "https://open.cait518.cc/cvdesk-support/help.html"}, "author": {"@type": "Organization", "name": "Lumi Studio"}}</script>
+<!-- ls-appbanner:start -->
+<meta name="apple-itunes-app" content="app-id=6781337213, affiliate-data=pt=118326163&amp;ct=sup_cvdesk_own&amp;mt=8">
+<!-- ls-appbanner:end -->
+<!-- ls-clickbeacon:start -->
+<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
+<!-- ls-clickbeacon:end -->
+<!-- ls-pwa:start -->
+<link rel="manifest" href="/cvdesk-support/manifest.webmanifest">
+<!-- ls-pwa:end -->
+<!-- ls-sharecard:start -->
+<meta property="og:site_name" content="CV Desk: ATS Resume Builder">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://open.cait518.cc/cvdesk-support/assets/og.png?v=47f645d7af">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CV Desk: ATS Resume Builder — Resume Checker &amp; Templates">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="max-image-preview:large">
+<!-- ls-sharecard:end -->
+</head>
+<body>
+<p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">This site is run by Lumi Studio, the developer of the featured apps. The apps recommended here are our own.</p>
+<main class="helpdoc">
+<p class="hd-nav">
+<a href="support.html">Support home</a>
+<a href="help.html">Help &amp; FAQ</a>
+<a href="ats-cv-builder-iphone.en-GB.html">ATS CV builder for iPhone</a>
+<a href="resume-vs-cv.html">Resume vs CV</a>
+</p>
+<h1>ATS CV checker: compare your CV with the job advert</h1>
+<p class="lede">Paste the job advert and your CV. The checker lists the words and phrases the advert repeats, shows which ones your CV already uses and which are missing, checks your section headings, and gives a match rate. It runs entirely in this browser tab: nothing you paste is uploaded, saved or sent anywhere.</p>
+
+<section class="ac-tool" aria-label="ATS CV checker">
+<div class="ac-grid">
+<div class="ac-field">
+<label for="ac-job">1. Job advert</label>
+<textarea id="ac-job" rows="10" spellcheck="false" placeholder="Paste the full advert, including the job description and person specification."></textarea>
+</div>
+<div class="ac-field">
+<label for="ac-cv">2. Your CV</label>
+<textarea id="ac-cv" rows="10" spellcheck="false" placeholder="Paste the text of your CV. Copy it from the file you plan to send, so you see what a parser would see."></textarea>
+</div>
+</div>
+<div class="ac-row">
+<label for="ac-title" class="ac-small">Job title from the advert (optional)</label>
+<input id="ac-title" type="text" autocomplete="off" placeholder="e.g. Senior Account Executive">
+</div>
+<div class="ac-row ac-btns">
+<button type="button" id="ac-example">Try an example</button>
+<button type="button" id="ac-clear">Clear both</button>
+</div>
+
+<div id="ac-out" aria-live="polite">
+<p class="ac-empty" id="ac-empty">Results appear here as soon as both boxes have some text.</p>
+<div id="ac-res" hidden>
+<div class="ac-score">
+<div><span class="ac-big" id="ac-rate">0%</span><span class="ac-small" id="ac-rate-note"></span></div>
+<div class="ac-bar" aria-hidden="true"><span id="ac-bar"></span></div>
+</div>
+<h3>Missing from your CV</h3>
+<p class="ac-small">Most repeated in the advert first. Add the ones that are true for you, in your own sentences, spelled the way the advert spells them.</p>
+<ul class="ac-chips" id="ac-missing"></ul>
+<h3>Already in your CV</h3>
+<ul class="ac-chips ac-ok" id="ac-found"></ul>
+<h3>Job title</h3>
+<p id="ac-titlecheck" class="ac-small"></p>
+<h3>Section headings</h3>
+<ul class="ac-list" id="ac-heads"></ul>
+<h3>Other things worth a look</h3>
+<ul class="ac-list" id="ac-flags"></ul>
+</div>
+</div>
+</section>
+
+<p class="ac-small">The checker only sees plain text. It cannot tell whether your file uses tables, columns, text boxes, a header or footer, or images, so check those yourself (see the list below).</p>
+
+<h2 id="how">How the match rate is worked out</h2>
+<ol>
+<li><strong>Keywords from the advert.</strong> The advert is split into words. Common English words (“the”, “and”, “with”) and words found in almost every advert (“role”, “team”, “candidate”, “experience”) are dropped. Two- and three-word phrases such as “stakeholder management” are kept when they appear at least twice (a longer phrase replaces a shorter one inside it, unless the shorter one appears more often), or once if they look like a named skill (for example “Microsoft Excel”). Single words are kept when they appear at least twice, or once if they are an acronym or a tool name such as SQL, CIPD or C#.</li>
+<li><strong>Weighting.</strong> Each keyword is weighted by how often the advert uses it, capped at 3, so one word repeated ten times cannot swamp the rest. Phrases, acronyms and tool names get a small bonus. Up to 30 keywords are used.</li>
+<li><strong>Matching.</strong> A keyword counts as found if your CV contains it, ignoring capitals and simple plural endings (“stakeholder” matches “stakeholders”). A different form of the word (“managed” for “management”), or a phrase whose words are all in your CV but not side by side, is marked “partly” and counts for half.</li>
+<li><strong>Match rate</strong> = weight of keywords found ÷ total weight of the advert’s keywords. It is a rough guide to coverage, not a prediction of what any employer’s system will do.</li>
+<li><strong>Headings.</strong> Short lines on their own are compared with common CV headings: Profile (or Personal statement, Summary), Work experience (or Employment history), Education (or Qualifications), Skills, and References.</li>
+</ol>
+
+<h2 id="format">What applicant tracking systems struggle with</h2>
+<p>From the public guidance listed under Sources:</p>
+<ul>
+<li><strong>Keywords from the advert.</strong> Prospects notes that ATS software screens CVs for keywords from the job description, and advises reading the job description and person specification and including the relevant keywords, with qualifications and certifications identified by name.</li>
+<li><strong>Images and graphics.</strong> Prospects says to avoid images, logos and graphics because an ATS cannot read them. Greenhouse lists graphics, photos and word art, and CVs uploaded as an image, among the causes of a failed parse.</li>
+<li><strong>Tables, columns and text boxes.</strong> Greenhouse also lists tables, headers and footers, contact details placed in a header, footer or text box, and columned layouts.</li>
+<li><strong>Clear sections and full job titles.</strong> Greenhouse mentions CVs without clear sections, letters spaced out across a word, and shortened titles such as “Sr. Account Exec” instead of “Senior Account Executive”.</li>
+<li><strong>File type.</strong> Prospects points out that not every ATS accepts PDF, so check which format the employer asks for.</li>
+<li><strong>UK CV sections.</strong> The National Careers Service suggests contact details, a short introduction, education, work history and references, and says not to include your age, date of birth, marital status or nationality.</li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+<ul class="ac-src">
+<li><a href="https://www.prospects.ac.uk/careers-advice/cvs-and-cover-letters/how-to-write-a-cv" rel="noopener">Prospects: How to write a CV</a> (section on applicant tracking systems)</li>
+<li><a href="https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse" rel="noopener">Greenhouse Support: Unsuccessful resume parse</a></li>
+<li><a href="https://nationalcareers.service.gov.uk/careers-advice/cv-sections" rel="noopener">National Careers Service: How to write a CV</a></li>
+</ul>
+<p class="ac-small">Every employer’s system is set up differently. A high match rate does not guarantee an interview, and a low one does not mean you will be rejected; it just shows where your wording and the advert’s differ.</p>
+
+<h2 id="app">Writing the CV on your phone?</h2>
+<p>CV Desk is our CV builder for iPhone. It keeps a separate, tailored CV for each job, so the version you adjust with this checker does not overwrite the others. While you write, it gives an ATS score from 0 to 100 with fixes you can tap, uses standard section headings, and exports a single-column PDF with real, selectable text or an editable Word (.docx) file for agencies that ask for one. It needs no account, nothing leaves your iPhone, and it works offline. You can create and preview a CV without paying; a one-time purchase removes the watermark on exports, with no subscription. Its score is the app’s own on-device estimate, worked out differently from this page.</p>
+<p>
+<a class="hd-cta" href="https://apps.apple.com/gb/app/id6781337213?pt=118326163&amp;ct=sqa1119f_cvdesk_gb&amp;mt=8" rel="noopener">CV Desk on the App Store</a>
+<a class="hd-cta" href="https://play.google.com/store/apps/details?id=com.alice51849.cvdesk&amp;hl=en_GB&amp;referrer=utm_source%3Dsqa1119f_cvdesk_gb%26utm_campaign%3Dcvdesk" rel="noopener">CV Desk on Google Play</a>
+</p>
+<p class="hd-note">What you paste stays in this tab and disappears when you close it; the page stores nothing. The only thing this site counts is a tap on an App Store or Google Play link. App details come from CV Desk’s App Store page and may change with updates. · Last updated: 2026-11-19 · <a href="help.html">Help &amp; FAQ</a></p>
+</main>
+<script>
+(function(){
+var STOP=("a about above after again against all also am an and any are as at be because been before being below between both but by can could did do does doing down during each few for from further had has have having he her here hers herself him himself his how i if in into is it its itself just me more most my myself no nor not now of off on once only or other our ours ourselves out over own same she should so some such than that the their theirs them themselves then there these they this those through to too under until up very was we were what when where which while who whom why will with would you your yours yourself yourselves etc via per within across including include includes must may might shall us ie eg e.g i.e new well key good great able plus").split(" ");
+var JOB=("role roles job jobs position positions candidate candidates applicant applicants apply applying application applications team teams company organisation organization opportunity opportunities experience experienced work working works looking join joining ideal successful skills skill responsibilities responsibility requirements required requirement essential desirable preferred ability abilities strong excellent proven demonstrable demonstrated knowledge understanding year years month months day days week weeks time full part salary benefits benefit package hours based location office hybrid remote uk london please offer offering help helping make making ensure ensuring support supporting provide providing within business people person specification description duties duty will want need needs like across also day-to-day level high highly range wide variety other others every including environment culture values passionate motivated driven self-starter equal diversity inclusive employer closing date reference ref per annum pa").split(" ");
+var SW=Object.create(null);STOP.concat(JOB).forEach(function(w){SW[w]=1});
+function toks(t){var m=t.match(/[A-Za-z0-9][A-Za-z0-9+#./&'’-]*/g)||[];return m.map(function(w){return w.replace(/[.'’-]+$/,"").replace(/['’]s$/i,"")}).filter(function(w){return w.length>0})}
+function stem(w){w=w.toLowerCase();if(w.length>4&&/ies$/.test(w))return w.slice(0,-3)+"y";if(w.length>4&&/(sses|xes|ches|shes)$/.test(w))return w.slice(0,-2);if(w.length>3&&/[^s]s$/.test(w))return w.slice(0,-1);return w}
+function root(w){w=stem(w);var r=w.replace(/(ments|ment|ations|ation|ings|ing|ers|er|ed|ive|ly|al)$/,"");return r.length>=4?r:w}
+function special(w){return /[+#]/.test(w)||/\.[a-z]/i.test(w)||(/^[A-Z0-9]{2,}$/.test(w)&&/[A-Z]/.test(w))}
+function ok(w){var l=w.toLowerCase();return !SW[l]&&!/^\d+$/.test(l)&&(l.length>2||special(w))}
+function keywords(job){
+ var lines=job.split(/\n|[.;:!?•·]\s|[,()|]/),uni=Object.create(null),bi=Object.create(null),tri=Object.create(null),disp=Object.create(null);
+ lines.forEach(function(line){var t=toks(line);for(var i=0;i<t.length;i++){var w=t[i];if(!ok(w))continue;var k=stem(w);uni[k]=(uni[k]||0)+1;if(!disp[k]||special(w))disp[k]=w;
+  if(i+1<t.length&&ok(t[i+1])){var k2=k+" "+stem(t[i+1]);bi[k2]=(bi[k2]||0)+1;if(!disp[k2])disp[k2]=w+" "+t[i+1];
+   if(i+2<t.length&&ok(t[i+2])){var k3=k2+" "+stem(t[i+2]);tri[k3]=(tri[k3]||0)+1;if(!disp[k3])disp[k3]=disp[k2]+" "+t[i+2];}}}});
+ var list=[];
+ var BRAND=/^(Microsoft|Google|Adobe|Salesforce|Power|Amazon|Meta|Apple)$/;
+ Object.keys(bi).forEach(function(k){var d=disp[k].split(" ");var named=/^[A-Z]/.test(d[0])&&/^[A-Z]/.test(d[1])&&(special(d[0])||special(d[1])||BRAND.test(d[0]));if(bi[k]>=2||named)list.push({k:k,d:disp[k],n:bi[k],bi:1})});
+ Object.keys(tri).forEach(function(k){if(tri[k]<2)return;var p=k.split(" "),x=p[0]+" "+p[1],y=p[1]+" "+p[2];list=list.filter(function(e){return !((e.k===x||e.k===y)&&e.n<=tri[k])});list.push({k:k,d:disp[k],n:tri[k],bi:1})});
+ var inBi=Object.create(null);list.forEach(function(x){x.k.split(" ").forEach(function(p){inBi[p]=(inBi[p]||0)+x.n})});
+ Object.keys(uni).forEach(function(k){var n=uni[k];var left=n-(inBi[k]||0);if((n>=2&&left>=1)||(n===1&&special(disp[k])))list.push({k:k,d:disp[k],n:n,bi:0})});
+ list.forEach(function(x){x.w=Math.min(x.n,3)+(x.bi?0.5:0)+(special(x.d)?0.5:0)});
+ list.sort(function(a,b){return b.w-a.w||b.n-a.n});
+ return list.slice(0,30);
+}
+function cvIndex(cv){var t=toks(cv),s=" ",r=" ";t.forEach(function(w){s+=stem(w)+" ";r+=root(w)+" "});return {s:s,r:r}}
+function match(kw,ix){var p=kw.k.split(" ");if(ix.s.indexOf(" "+p.join(" ")+" ")>=0)return 1;var rr=p.map(root).join(" ");if(ix.r.indexOf(" "+rr+" ")>=0)return 0.5;if(p.length>1&&p.every(function(w){return ix.s.indexOf(" "+w+" ")>=0}))return 0.5;return 0}
+var HEADS=[["Profile",/^(personal\s+)?(profile|statement|summary)$|^(professional|career)\s+(profile|summary)$|^about\s+me$|^introduction$/],["Work experience",/^(work|professional|relevant)?\s*experience$|^(employment|work|career)\s+history$|^employment$/],["Education",/^education(\s+and\s+(training|qualifications))?$|^qualifications$|^education\s*&\s*(training|qualifications)$/],["Skills",/^(key\s+|core\s+|technical\s+)?skills(\s+and\s+\w+)?$|^skills\s*&\s*\w+$/],["References",/^references$/]];
+function heads(cv){var found={};cv.split("\n").forEach(function(l){var s=l.trim().replace(/[:\-–—]+$/,"").toLowerCase();if(!s||s.split(/\s+/).length>5)return;HEADS.forEach(function(h){if(h[1].test(s))found[h[0]]=l.trim()})});return found}
+function esc(s){return s.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function li(cls,html){return '<li class="'+cls+'">'+html+'</li>'}
+var $=function(id){return document.getElementById(id)};
+var job=$("ac-job"),cv=$("ac-cv"),title=$("ac-title"),titleAuto=true,timer;
+function guessTitle(){if(!titleAuto)return;var first=(job.value.split("\n").map(function(s){return s.trim()}).filter(Boolean)[0]||"");title.value=(first&&first.split(/\s+/).length<=7&&!/[.:]$/.test(first))?first.replace(/^(job\s*title|role)\s*[:\-–]\s*/i,""):""}
+function run(){
+ var J=job.value.trim(),C=cv.value.trim();
+ if(!J||!C){$("ac-res").hidden=true;$("ac-empty").hidden=false;return}
+ $("ac-res").hidden=false;$("ac-empty").hidden=true;
+ var kws=keywords(J),ix=cvIndex(C),tot=0,got=0,miss=[],fnd=[];
+ kws.forEach(function(k){var m=match(k,ix);tot+=k.w;got+=k.w*m;var tag=esc(k.d)+' <small>×'+k.n+'</small>';if(m===1)fnd.push(li("",tag));else if(m===0.5)fnd.push(li("ac-half",tag+' <small>partly</small>'));else miss.push(li("",tag))});
+ var rate=tot?Math.round(got/tot*100):0;
+ $("ac-rate").textContent=rate+"%";$("ac-bar").style.width=rate+"%";
+ $("ac-rate-note").textContent=kws.length?" match rate across "+kws.length+" keywords from the advert":" no repeated keywords found yet; paste the full advert";
+ $("ac-missing").innerHTML=miss.join("")||'<li class="ac-none">Nothing missing from the list above.</li>';
+ $("ac-found").innerHTML=fnd.join("")||'<li class="ac-none">None yet.</li>';
+ var t=title.value.trim(),tc=$("ac-titlecheck");
+ if(!t)tc.textContent="Add the job title above to check whether your CV uses the same wording.";
+ else{var tk=toks(t).filter(function(w){return !STOP.includes(w.toLowerCase())}).map(stem),all=tk.length&&ix.s.indexOf(" "+toks(t).map(stem).join(" ")+" ")>=0,some=tk.filter(function(x){return ix.s.indexOf(" "+x+" ")>=0}).length;
+  tc.innerHTML=all?'Your CV uses the exact title “'+esc(t)+'”. Good: say it the way the advert does, in full.':(some?'Your CV has some of the words in “'+esc(t)+'” but not the title as written. If you have held this title or are targeting it, write it out in full, for example in your profile.':'The title “'+esc(t)+'” does not appear in your CV. If it fits, use it in your profile line.')}
+ var h=heads(C),hl=[];HEADS.forEach(function(x){hl.push(h[x[0]]?li("ac-y",'<b>'+x[0]+'</b>: found as “'+esc(h[x[0]])+'”'):li("ac-n",'<b>'+x[0]+'</b>: no heading found'+(x[0]==="References"?' (optional; “References available on request” is fine)':'')))});$("ac-heads").innerHTML=hl.join("");
+ var f=[];
+ if(!/[^\s@]+@[^\s@]+\.[^\s@]+/.test(C))f.push(li("ac-n","No email address found. Put contact details in the body of the CV, not in a header, footer or text box."));
+ if(!/(\+44[\s(]*0?[\s)]*|\(?0)\d[\d\s()-]{7,12}\d/.test(C))f.push(li("ac-n","No UK phone number found in the text."));
+ var abbr=C.match(/\b(Sr|Jr|Snr|Jnr|Mgr|Asst|Exec|Dept|Coord)\b\.?/g);if(abbr)f.push(li("ac-n","Shortened words found ("+esc(Array.from(new Set(abbr)).slice(0,5).join(", "))+"). Write job titles out in full."));
+ if(/\b(?:[A-Za-z] ){3,}[A-Za-z]\b/.test(C))f.push(li("ac-n","Letters spaced out across a word (like “S K I L L S”). A parser may read these as separate letters."));
+ if(/date of birth|\bD\.?O\.?B\b|marital status|\bnationality\b/i.test(C))f.push(li("ac-n","Personal details such as date of birth, marital status or nationality. The National Careers Service says to leave these off."));
+ if(/\t/.test(C))f.push(li("ac-n","Tab characters in the pasted text. These often come from tables or side-by-side columns; check the layout of the file itself."));
+ if(!f.length)f.push(li("ac-y","Nothing flagged in the text. Still check the file for tables, columns, text boxes, headers, footers and images."));
+ $("ac-flags").innerHTML=f.join("");
+}
+function later(){clearTimeout(timer);timer=setTimeout(run,180)}
+job.addEventListener("input",function(){guessTitle();later()});cv.addEventListener("input",later);
+title.addEventListener("input",function(){titleAuto=!title.value;later()});
+$("ac-clear").addEventListener("click",function(){job.value="";cv.value="";title.value="";titleAuto=true;run();job.focus()});
+$("ac-example").addEventListener("click",function(){
+ job.value="Marketing Executive\n\nWe are looking for a Marketing Executive to plan and run email marketing campaigns and social media content for our UK customers.\n\nWhat you will do:\n• Plan email marketing campaigns and report on campaign performance\n• Create social media content and manage the content calendar\n• Use Google Analytics and Microsoft Excel to track results\n• Work with stakeholders across sales and product\n\nWhat we need:\n• Experience with email marketing platforms such as Mailchimp\n• Good copywriting skills and attention to detail\n• Knowledge of SEO and Google Analytics\n• CIM qualification desirable";
+ cv.value="Alex Taylor\nalex.taylor@example.com · 07700 900123 · Leeds\n\nProfile\nMarketing assistant with two years' experience in social media and copywriting for retail brands.\n\nWork experience\nSr. Marketing Asst, Northgate Retail, 2023 to present\n• Wrote social media posts and managed a weekly content calendar\n• Built monthly reports in Excel\n\nEducation\nBA (Hons) Marketing, University of Leeds, 2023\n\nSkills\nCopywriting, Canva, social media scheduling";
+ titleAuto=true;guessTitle();run();
+});
+})();
+</script>
+<!-- ls-family:start --><section aria-label="More apps from the same developer" style="max-width:1060px;margin:34px auto 26px;padding:20px 22px;background:rgba(127,127,127,.08);background:color-mix(in srgb, currentColor 7%, transparent);border:1px solid rgba(127,127,127,.18);border-color:color-mix(in srgb, currentColor 16%, transparent);border-radius:20px;font-family:inherit;color:inherit;text-align:left"><h2 style="margin:0 0 14px;font-size:17px;color:inherit">More apps from the same developer</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px"><div style="display:flex;flex-direction:column;gap:4px;min-width:0"><a href="https://apps.apple.com/app/id6785004775?pt=118326163&amp;ct=sup_cvdesk&amp;mt=8" rel="noopener" style="display:flex;align-items:center;gap:12px;padding:12px 14px;background:rgba(127,127,127,.10);background:color-mix(in srgb, currentColor 9%, transparent);border:1px solid rgba(127,127,127,.22);border-color:color-mix(in srgb, currentColor 20%, transparent);border-radius:16px;text-decoration:none;color:inherit;min-width:0;text-align:left"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/58/3f/69583ff4-1a2a-2b78-f403-49b0f33a037e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg" alt="" width="46" height="46" loading="lazy" style="border-radius:11px;flex:0 0 auto" /><span style="min-width:0"><strong style="display:block;font-size:14px;line-height:1.35">Mochi: Cute Checklist</strong><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">Free · one-time purchase to unlock, no subscription</span><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">View on the App Store</span></span></a><a href="https://play.google.com/store/apps/details?id=com.alice51849.MochiTodo&amp;referrer=utm_source%3Dsup_cvdesk%26utm_campaign%3Dmochi" rel="noopener" data-ls-play="card" style="font-size:12px;opacity:.72;color:inherit;text-decoration:underline;padding-left:14px">Google Play</a></div><div style="display:flex;flex-direction:column;gap:4px;min-width:0"><a href="https://apps.apple.com/app/id6798814385?pt=118326163&amp;ct=sup_cvdesk&amp;mt=8" rel="noopener" style="display:flex;align-items:center;gap:12px;padding:12px 14px;background:rgba(127,127,127,.10);background:color-mix(in srgb, currentColor 9%, transparent);border:1px solid rgba(127,127,127,.22);border-color:color-mix(in srgb, currentColor 20%, transparent);border-radius:16px;text-decoration:none;color:inherit;min-width:0;text-align:left"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/64/a3/cc64a30c-fc71-8a02-6cf5-2963cdda56df/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg" alt="" width="46" height="46" loading="lazy" style="border-radius:11px;flex:0 0 auto" /><span style="min-width:0"><strong style="display:block;font-size:14px;line-height:1.35">OnePage PPT: AI Slide Maker</strong><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">Free · one-time purchase to unlock, no subscription</span><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">View on the App Store</span></span></a><a href="https://play.google.com/store/apps/details?id=com.alice51849.OnePagePPT&amp;referrer=utm_source%3Dsup_cvdesk%26utm_campaign%3Donepageppt" rel="noopener" data-ls-play="card" style="font-size:12px;opacity:.72;color:inherit;text-decoration:underline;padding-left:14px">Google Play</a></div><div style="display:flex;flex-direction:column;gap:4px;min-width:0"><a href="https://apps.apple.com/app/id6818607603?pt=118326163&amp;ct=sup_cvdesk&amp;mt=8" rel="noopener" style="display:flex;align-items:center;gap:12px;padding:12px 14px;background:rgba(127,127,127,.10);background:color-mix(in srgb, currentColor 9%, transparent);border:1px solid rgba(127,127,127,.22);border-color:color-mix(in srgb, currentColor 20%, transparent);border-radius:16px;text-decoration:none;color:inherit;min-width:0;text-align:left"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/91/38/d09138a3-0e71-bc9c-a68f-0ce2239e310a/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.jpg" alt="" width="46" height="46" loading="lazy" style="border-radius:11px;flex:0 0 auto" /><span style="min-width:0"><strong style="display:block;font-size:14px;line-height:1.35">UsageNow: AI Usage Tracker</strong><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">Free · one-time purchase to unlock, no subscription</span><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">View on the App Store</span></span></a><a href="https://play.google.com/store/apps/details?id=com.alice51849.ClaudeUsageMini&amp;referrer=utm_source%3Dsup_cvdesk%26utm_campaign%3Dclaudeusagemini" rel="noopener" data-ls-play="card" style="font-size:12px;opacity:.72;color:inherit;text-decoration:underline;padding-left:14px">Google Play</a></div><div style="display:flex;flex-direction:column;gap:4px;min-width:0"><a href="https://apps.apple.com/app/id6807335593?pt=118326163&amp;ct=sup_cvdesk&amp;mt=8" rel="noopener" style="display:flex;align-items:center;gap:12px;padding:12px 14px;background:rgba(127,127,127,.10);background:color-mix(in srgb, currentColor 9%, transparent);border:1px solid rgba(127,127,127,.22);border-color:color-mix(in srgb, currentColor 20%, transparent);border-radius:16px;text-decoration:none;color:inherit;min-width:0;text-align:left"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/c9/60/edc960da-b9fd-c042-874c-3abc78665a89/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg" alt="" width="46" height="46" loading="lazy" style="border-radius:11px;flex:0 0 auto" /><span style="min-width:0"><strong style="display:block;font-size:14px;line-height:1.35">Studydown: Face-Down Timer</strong><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">Free · one-time purchase to unlock, no subscription</span><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">View on the App Store</span></span></a><a href="https://play.google.com/store/apps/details?id=com.alice51849.Studydown&amp;referrer=utm_source%3Dsup_cvdesk%26utm_campaign%3Dstudydown" rel="noopener" data-ls-play="card" style="font-size:12px;opacity:.72;color:inherit;text-decoration:underline;padding-left:14px">Google Play</a></div><div style="display:flex;flex-direction:column;gap:4px;min-width:0"><a href="https://apps.apple.com/app/id6779977651?pt=118326163&amp;ct=sup_cvdesk&amp;mt=8" rel="noopener" style="display:flex;align-items:center;gap:12px;padding:12px 14px;background:rgba(127,127,127,.10);background:color-mix(in srgb, currentColor 9%, transparent);border:1px solid rgba(127,127,127,.22);border-color:color-mix(in srgb, currentColor 20%, transparent);border-radius:16px;text-decoration:none;color:inherit;min-width:0;text-align:left"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/c8/53/36c85312-b1b0-e3c5-2045-414320d2363c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg" alt="" width="46" height="46" loading="lazy" style="border-radius:11px;flex:0 0 auto" /><span style="min-width:0"><strong style="display:block;font-size:14px;line-height:1.35">ScanTo Pro: Offline PDF &amp; OCR</strong><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">Free · one-time purchase to unlock, no subscription</span><span style="display:block;font-size:12px;line-height:1.4;opacity:.72">View on the App Store</span></span></a><a href="https://play.google.com/store/apps/details?id=com.alice51849.OfflineScannerPro&amp;referrer=utm_source%3Dsup_cvdesk%26utm_campaign%3Dscanto" rel="noopener" data-ls-play="card" style="font-size:12px;opacity:.72;color:inherit;text-decoration:underline;padding-left:14px">Google Play</a></div></div><p style="margin:10px 0 0;font-size:12px;opacity:.66">Links open the App Store.</p><p style="margin:6px 0 0;font-size:12px;opacity:.72">Android: <a href="https://play.google.com/store/apps/details?id=com.alice51849.cvdesk&amp;referrer=utm_source%3Dsup_cvdesk_own%26utm_campaign%3Dcvdesk" rel="noopener" data-ls-play="own" style="font-size:12px;opacity:.72;color:inherit;text-decoration:underline;">Google Play</a></p><p style="margin:6px 0 0;font-size:12px;opacity:.72"><a href="https://apps.apple.com/app/id6781337213?action=write-review" rel="noopener" data-app-store-review="owner" style="color:inherit;text-decoration:underline">Already using this app? Rate or review it on the App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.alice51849.cvdesk&amp;showAllReviews=true" rel="nofollow noopener" data-play-review="owner" style="color:inherit;text-decoration:underline">Google Play</a></p><p style="margin:6px 0 0;font-size:12px;opacity:.66;line-height:1.7"><a href="https://open.cait518.cc/ios-app-guide/en-US/?utm_source=support_site&amp;utm_medium=family_module&amp;utm_campaign=sup_cvdesk" rel="noopener" style="color:inherit;text-decoration:underline">More app guides &amp; how-tos</a> · <a href="https://open.cait518.cc/ios-app-guide/en-US/tools/private-pay-once-iphone-app-finder.html?utm_source=support_site&amp;utm_medium=family_module&amp;utm_campaign=sup_cvdesk" rel="noopener" style="color:inherit;text-decoration:underline">Private &amp; Pay-Once iPhone App Finder</a> · <a href="https://open.cait518.cc/ios-app-guide/en-US/hubs/cvdesk.html?utm_source=support_site&amp;utm_medium=family_module&amp;utm_campaign=sup_cvdesk" rel="noopener" style="color:inherit;text-decoration:underline">CV Desk: ATS Resume Builder · Questions</a></p></section><!-- ls-family:end -->
+<footer></footer>
+</body>
+</html>
